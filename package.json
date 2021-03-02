@@ -1,0 +1,19 @@
+{
+  "name": "tailbin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailbincss": "tailwindcss build ./src/styles.css -o ./public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "build.js": "^0.3.0",
+    "index.js": "0.0.3",
+    "postcss": "^8.2.2",
+    "tailwindcss": "^2.0.2"
+  }
+}
